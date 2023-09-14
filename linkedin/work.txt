@@ -1,0 +1,61 @@
+| Roles I fulfilled |
+Advanced Repair Agent
+Consultation Agent
+Pseudo-manager
+Knowledge-base
+
+| Advanced Repair Agent |
+As an ARA, I was tasked with resolving any manner of issue related to technology.
+The job included diagnosing and repairing computers using precinct approved tools,
+performing certified in-store repairs on iPhones, shipping and receiving of Apple parts.
+
+| Consultation Agent |
+As a CA, I was handling the client-facing side of the business.
+This included on-counter troubleshooting, POS transations, check-ins through NOVA and GSX,
+and typical customer service skills.
+Other non-customer facing tasks include shipping/receiving to/from service center(s)
+and performing functionality checks on returned Best Buy products.  
+
+| Pseudo-Manager |
+Not an official position, however I was often someone who made decisions when
+there was not a manager around. Especially during the times where there was no
+Geek Squad Manager employed as I was the most experienced person around for the
+last year of my employement.
+
+| Knowledge-Base |
+Also not an official position, I was the go-to person for every technical question, and often the go-to person 
+for non-technical questions as well. For the last year of my employement I was
+also tasked with the training of many of my coworkers. 
+
+| Extra stuff |
+I was embarassed by the quality of Geek Squad's service so I went above and beyond the expectations of
+a typical ARA at Geek Squad.
+A list of examples of doing more:
+ - I learned how to clone drives from one computer to another (often different sized drives) and how to resolve the subsequent Windows boot and driver issues.
+   This was all so the client would have their computer feel exactly the same as their previous.
+ - I learned how to do proper data recovery using real data recovery tools like ddrescue and testdisk. I found it unacceptable to tell a client
+   that I couldn't recover the photos and videos of their deceased spouse when they trusted me to. On top of that, I saved thousands of dollars
+   for elderly clients so they didn't need to resort to pricey data recovery services.
+ - There's so many more, including obscure boot issues, so many Outlook issues, fixing two power-buttons in a jury-rigged fashion, etc...
+
+
+
+I was hired as an Advanced Repair Agent(ARA), but have performed every role in the precinct at some point or another.
+
+I've performed the job of the Consulting Agent(CA) for the first year
+and have primarily been in an ARA role for the remaining time.
+
+As a CA, I primarily do customer-facing work, checking in and out devices,
+handling transactions through POS machines and sellings services/products.
+Often CAs are expected to do basic troubleshooting on counter.
+Other additional jobs include shipping/receiving client products from service center
+ and functionality checks on store-returned items.
+
+The job of an ARA is to perform basic troubleshooting and repair using Geek Squad tools
+ as well as perform the role of an Apple Authorized Repair Technician by using genuine Apple parts to repair iPhones. 
+
+As an avid problem solver and someone who doesn't like seeing clients pay hundreds of dollars for a subpar service,
+I've taken my responsibilities a step further than the unacceptable bare minimum that Geek Squad expects.
+As such I've learned a ton of things in my time at Geek Squad about technology, often in an informal and hands on manner.
+The thing I'm most proud of learning how to do is manual data recovery using a custom linux image with data recovery tools like ddrescue and testdisk.
+I've managed to save thousands of dollars and made quite a few happy clients by preventing drives being sent out to expensive data recovery services and recovering client data in-precinct.

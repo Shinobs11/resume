@@ -1,0 +1,170 @@
+%!TEX root = "../resume.tex"
+%!TEX TS-program = lualatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+
+\documentclass[]{awesome-cv}
+\usepackage{cmap}
+% Ensures that PDF is parseable by ATS
+
+\usepackage{textcomp}
+\usepackage{stackengine}
+% \usepackage{placeat}
+% \usepackage[sfdefault]{roboto}
+\usepackage[T1]{fontenc}
+%%% Override a directory location for fonts(default: 'fonts/')
+
+% \setmainfont{Roboto-Regular.ttf}[
+%         Path = ./fonts/,
+%         BoldFont = Roboto-Bold.ttf
+%     ]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \placeatsetup{nogrid}
+% \placeminipageat(9,2){\includegraphics[width=2cm, height=2cm]{shinobs11.png}}
+
+\begin{center}
+	\headerfirstnamestyle{Jared} \headerfirstnamestyle{Cline} \\ 
+	\vspace{2mm}
+	{\faEnvelope\ jaredmc64@gmail.com} | {\faMapMarker\ Champaign, IL} | {\faLink\ linktr.ee/shinobs11}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{BS in Computer Science}
+	{Illinois State University}
+	{Normal, IL}
+	{May 2021 – May 2023}
+	{GPA: 3.4}
+	\cventry
+	{AS in Engineering Science}
+	{Heartland Community College}
+	{Normal, IL}
+	{May 2015 – May 2020}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+    \cventry{
+      Software Engineer
+    }{
+      Inovalon
+    }{
+      Remote
+    }{
+      May 2022 - Present
+    }{
+      \begin{cvitems}
+        \item {Added DataDog tracing capabilities to Kubernetes clusters}
+        \item {Created an autoscaling self-hosted Azure pipeline build agent pool (including images) with Terraform and deployed on AWS}
+        \item {Refactored existing CI/CD processes to streamline infrastructure, reduce bloat and technical debt, and keep my OCD in check}
+      \end{cvitems}
+    }
+    \cventry{
+      Data Engineer Intern
+    }{
+      Inovalon
+    }{
+      Remote
+    }{
+      October 2022 - January 2023
+    }{
+      \begin{cvitems}
+      \item {Migrated AWS QuickSight resources across AWS accounts}
+      \item {Created adminstrative dashboard using QuickSight, Lambda, Athena and S3}
+      \item {Created API cache using Docker, EC2, postgres, Python, boto3 and bash}
+      \item {Learned about TCP/IP, SSL/TLS and sockets while trying to create a custom reverse proxy}
+      \end{cvitems}
+    }
+   \cventry
+    {Associate UI Engineer Intern}
+    {Inovalon}
+    {Remote}
+    {July 2022 - October 2022}
+    {
+      \begin{cvitems}
+      \item {Developed UI components for use in an internal component library for company-wide use.}
+      \item {Used Angular, HTML, CSS/SCSS and JavaScript/TypeScript extensively.}
+      \item {An absolute ton of debugging and problem solving, especially with build processes for a large Angular project.}
+      \item {Experienced working in an enterprise environment with agile methodologies.}
+      \end{cvitems}
+    }
+	\cventry
+	{Advanced Repair Agent (ARA)}
+	{Geek Squad/Best Buy}
+	{Bloomington, IL}
+	{July 2019 – January 2022}
+	{\begin{cvitems}
+      \item {Troubleshooting and resolving any manner of tech issue, often under intense time pressure}
+      \item {Responsible for training and leading a team of up to 7 people}
+      \item {Occasionally manned customer-facing role using POS to make sales}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Technical Skills}
+    \entrytitlestyle{
+    \begin{tabbing}
+    \textbf{Proficient} \textsubscript{(Well versed and have used many times before)}\\
+    \rule{8cm}{0.2mm}\\
+	  Languages: \hspace{10mm}\=\skillsetstyle{C, C++, JavaScript, TypeScript, Python, SQL } \\
+	  Frameworks: \>\skillsetstyle{React, React Native, Angular, PyTorch}\\
+    Cloud Platforms: \>\skillsetstyle{AWS}\\
+    Tools: \>\skillsetstyle{Git, Bash, Docker, Postgres, Kubernetes, Terraform} \\ 
+    \rule{0pt}{3ex}\\
+    \textbf{Familiar} \textsubscript{(Have used before to some extent)}\\
+    \rule{8cm}{0.2mm}\\
+    Languages: \>\skillsetstyle{Go, Java, R, C\#, Rust}\\
+    Frameworks: \>\skillsetstyle{Node, Express, Django} \\
+    Cloud Platforms: \>\skillsetstyle{Azure, Google Cloud}\\
+    Tools: \>\skillsetstyle{PowerShell, Expo}\\
+    \end{tabbing}
+    }
+\end{document}

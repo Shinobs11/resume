@@ -1,0 +1,150 @@
+%!TEX root = ./resume.tex
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{placeat}
+% \usepackage[sfdefault]{roboto}
+\usepackage[T1]{fontenc}
+
+\graphicspath{{./}}
+%%% Override a directory location for fonts(default: 'fonts/')
+
+% \setmainfont{Roboto-Regular.ttf}[
+%         Path = ./fonts/,
+%         BoldFont = Roboto-Bold.ttf
+%     ]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\placeatsetup{nogrid}
+\placeminipageat(9,2){\includegraphics[width=2cm, height=2cm]{shinobs11.png}}
+
+\begin{center}
+	\headerfirstnamestyle{Jared} \headerlastnamestyle{Cline} \\ 
+	\vspace{2mm}
+	{\faEnvelope\ jaredmc32@gmail.com} | {\faMobile\ 309-533-2720} | {\faMapMarker\ Atlanta, IL} | {\faLink\ linktr.ee/shinobs11}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{BS in Computer Science}
+	{Illinois State University}
+	{Normal, IL}
+	{May 2021 – May 2023}
+	{Current GPA: 3.2}
+	\cventry
+	{AS in Engineering Science}
+	{Heartland Community College}
+	{Normal, IL}
+	{May 2015 – May 2020}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Work Experience}
+\begin{cventries}
+    \cventry
+    {Associate UI Engineer Intern}
+    {Inovalon}
+    {Remote}
+    {July 2022 - Present}
+    {
+      \begin{cvitems}
+      \item {Developed UI components for use in an internal component library for company-wide use.}
+      \item {Used Angular, HTML, CSS/SCSS and JavaScript/TypeScript extensively.}
+      \item {Experience working in large codebases with convoluted project architecture.}
+      \item {An absolute ton of debugging and problem solving, especially with build processes for a large Angular project.}
+      \item {Experienced working in an enterprise environment with agile methodologies.}
+      \end{cvitems}
+    }
+	\cventry
+	{Advanced Repair Agent (ARA)}
+	{Geek Squad/Best Buy}
+	{Bloomington, IL}
+	{July 2019 – January 2022}
+	{\begin{cvitems}
+		\item {As an ARA, I was tasked with troubleshooting and repairing any manner of computer in both hardware and software related issues.}
+		\item {During 2019 and early 2020, I was acting as a Consultation Agent. In a client facing position, I interacted with clients, checked-in/out devices, quick diagnostics and resolved issues on-counter when possible.}
+		\item {As I was also a Best Buy employee, I also utilized POS machines to process transactions and acted as a salesperson on occasion.}
+		\item {Due to strange circumstances, I ended up the most experienced Geek Squad employee in the store in mid 2021. I was tasked with training every new Consultation Agent and ARA hired, as well as the new Geek Squad Manager. I was the go-to person for any and all questions.}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Technical Skills}
+    \entrytitlestyle{
+    \begin{tabbing}
+    \textbf{Proficient} \textsubscript{(Well versed and have used many times before)}\\
+    \rule{8cm}{0.2mm}\\
+	Languages:\hspace{2cm} \= \skillsetstyle{C, C++, JavaScript, TypeScript, Java, Python} \\
+	Frameworks: \> \skillsetstyle{React, React Native, Redux}\\
+    Tools: \>\skillsetstyle{Git, Bash, Expo} \\ 
+    \rule{0pt}{3ex}\\
+    \textbf{Familiar} \textsubscript{(Have used before to some extent)}\\
+    \rule{8cm}{0.2mm}\\
+    Languages: \> \skillsetstyle{SQL, PowerShell, Terraform}\\
+    Frameworks: \>\skillsetstyle{Node, Express, PyTorch} \\
+    Tools: \> \skillsetstyle{PostgresSQL, Kubernetes, Docker, Expo}\\
+    \rule{0pt}{3ex}\\
+    \textbf{Miscellaneous} \textsubscript{(Doesn't fit well elsewhere)}\\
+    \rule{8cm}{0.2mm}\\
+    \skillsetstyle{OAuth, RESTful APIs, Troubleshooting, Algorithims, Statistical Analysis, Physics}
+    \end{tabbing}
+    }
+\vspace{4mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{All-in-one music-streaming app built with \textbf{React Native} and \textbf{TypeScript} that can play music, sync up playlists, and provide music suggestions by using the public APIs of popular music-streaming platforms.}
+	{Music Sync (On-hold for internship hunt)}
+	{TypeScript, React Native, Redux, Express + Node, PostgreSQL}
+	{github.com/shinobs11}
+	{}
+	\vspace{-5mm}
+\end{cventries}
+\end{document}
