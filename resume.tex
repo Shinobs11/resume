@@ -29,6 +29,7 @@
 % \usepackage{placeat}
 % \usepackage[sfdefault]{roboto}
 \usepackage[T1]{fontenc}
+
 %%% Override a directory location for fonts(default: 'fonts/')
 
 % \setmainfont{Roboto-Regular.ttf}[
@@ -65,7 +66,7 @@
 % \placeminipageat(9,2){\includegraphics[width=2cm, height=2cm]{shinobs11.png}}
 
 \begin{center}
-	\headerfirstnamestyle{Jared} \headerfirstnamestyle{Cline} \\ 
+	\headerlastnamestyle{Jared} \headerlastnamestyle{Cline} \\ 
 	\vspace{2mm}
 	{\faEnvelope\ jaredmc64@gmail.com} | {\faMapMarker\ Champaign, IL} | {\faLink\ linktr.ee/shinobs11}
 \end{center}
@@ -79,12 +80,12 @@
 	{Illinois State University}
 	{Normal, IL}
 	{May 2021 – May 2023}
-	{GPA: 3.4}
+  {}
 	\cventry
 	{AS in Engineering Science}
 	{Heartland Community College}
 	{Normal, IL}
-	{May 2015 – May 2020}
+	{May 2018 – May 2020}
 	{}
 \end{cventries}
 
@@ -101,12 +102,13 @@
     }{
       Remote
     }{
-      May 2022 - Present
+      May 2023 - Present
     }{
       \begin{cvitems}
-        \item {Added DataDog tracing capabilities to Kubernetes clusters}
-        \item {Created an autoscaling self-hosted Azure pipeline build agent pool (including images) with Terraform and deployed on AWS}
-        \item {Refactored existing CI/CD processes to streamline infrastructure, reduce bloat and technical debt, and keep my OCD in check}
+        \item {Led a very successful initiative to optimize AWS resource costs, resulting in a cost reduction of \$70k/month (\$840k/year) without losing performance.}
+        \item {Built an autoscaling Azure pipeline agent, allowing us to control our CI/CD processes and reduce costs. Image deployed on EC2, built by EC2 Image Builder and used Terraform to manage all AWS resources.}
+        \item {Added DataDog monitoring and APM tracing to existing Kubernetes clusters, improving observability and allowing performance profiling of cloud infrastructure.}
+        \item {Refactored existing CI/CD processes to streamline deployments and reduce technical debt.}
       \end{cvitems}
     }
     \cventry{
@@ -119,10 +121,10 @@
       October 2022 - January 2023
     }{
       \begin{cvitems}
-      \item {Migrated AWS QuickSight resources across AWS accounts}
-      \item {Created adminstrative dashboard using QuickSight, Lambda, Athena and S3}
-      \item {Created API cache using Docker, EC2, postgres, Python, boto3 and bash}
-      \item {Learned about TCP/IP, SSL/TLS and sockets while trying to create a custom reverse proxy}
+      \item {Migrated AWS QuickSight resources across AWS accounts.}
+      \item {Created adminstrative dashboard using QuickSight, Lambda, Athena and S3.}
+      \item {Created API cache using Docker, EC2, postgres, Python, boto3 and bash.}
+      \item {Learned about TCP/IP, SSL/TLS and sockets while trying to create a custom reverse proxy}.
       \end{cvitems}
     }
    \cventry
@@ -144,27 +146,20 @@
 	{Bloomington, IL}
 	{July 2019 – January 2022}
 	{\begin{cvitems}
-      \item {Troubleshooting and resolving any manner of tech issue, often under intense time pressure}
-      \item {Responsible for training and leading a team of up to 7 people}
-      \item {Occasionally manned customer-facing role using POS to make sales}
+      \item {Troubleshooting and resolving any manner of tech issue, often under intense time pressure.}
+      \item {Responsible for training and leading a team of up to 7 people.}
+      \item {Occasionally manned customer-facing role using POS to make sales.}
 		\end{cvitems}}
 \end{cventries}
 \cvsection{Technical Skills}
     \entrytitlestyle{
     \begin{tabbing}
-    \textbf{Proficient} \textsubscript{(Well versed and have used many times before)}\\
-    \rule{8cm}{0.2mm}\\
-	  Languages: \hspace{10mm}\=\skillsetstyle{C, C++, JavaScript, TypeScript, Python, SQL } \\
-	  Frameworks: \>\skillsetstyle{React, React Native, Angular, PyTorch}\\
-    Cloud Platforms: \>\skillsetstyle{AWS}\\
-    Tools: \>\skillsetstyle{Git, Bash, Docker, Postgres, Kubernetes, Terraform} \\ 
-    \rule{0pt}{3ex}\\
-    \textbf{Familiar} \textsubscript{(Have used before to some extent)}\\
-    \rule{8cm}{0.2mm}\\
-    Languages: \>\skillsetstyle{Go, Java, R, C\#, Rust}\\
-    Frameworks: \>\skillsetstyle{Node, Express, Django} \\
-    Cloud Platforms: \>\skillsetstyle{Azure, Google Cloud}\\
-    Tools: \>\skillsetstyle{PowerShell, Expo}\\
+    % \rule{0pt}{3ex}\\
+    \hspace{7em}\=\kill
+    Languages:        \>\skillsetstyle{C, C++, JavaScript, TypeScript, Python, SQL, Rust}\\
+    Frameworks:       \>\skillsetstyle{React, React Native, Angular, PyTorch} \\
+    Cloud:            \>\skillsetstyle{AWS, Azure}\\
+    Tools:            \>\skillsetstyle{Git, Bash, Docker, Postgres, Kubernetes, Terraform}\\
     \end{tabbing}
     }
 \end{document}
